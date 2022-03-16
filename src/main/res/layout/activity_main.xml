@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.actividad2.MainActivity">
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="273dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/txt_nombre"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="273dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/txt_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombre"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:onClick="Registrar"
+        android:text="@string/button"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_password" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/extra2"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/imagen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ImageContrastCheck,ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txt_pasar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:onClick="ir"
+        android:text="@string/extra1"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.125"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

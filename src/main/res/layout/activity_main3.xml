@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.actividad2.MainActivity3">
+
+    <EditText
+        android:id="@+id/txt_number1"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/txt_number1"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/txt_number2"
+        android:layout_width="264dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/txt_number2"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_number1"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:onClick="Calcular"
+        android:text="@string/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="8dp"
+        android:onClick="volver"
+        android:text="@string/button7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="306dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_number2">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton2" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButton3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/radioButton4"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

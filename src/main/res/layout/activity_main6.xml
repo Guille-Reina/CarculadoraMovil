@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.actividad2.MainActivity6">
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:onClick="volver"
+        android:text="@string/button7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="amazon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/amazon"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="apple"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/apple"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="emule"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/emule"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="Discord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/images"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="vodafone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:srcCompat="@mipmap/logo"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/imagen"
+        android:minHeight="48dp"
+        android:onClick="netflix"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton7"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:srcCompat="@mipmap/n_26mmk_xs"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="skype"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:srcCompat="@mipmap/skype"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="spotify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:srcCompat="@mipmap/spotify"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="twitter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:srcCompat="@mipmap/twitter"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="google"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintStart_toEndOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="@mipmap/google"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="utorent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:srcCompat="@mipmap/utorrent"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="whatsapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        app:srcCompat="@mipmap/waht"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="wikipedia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        app:srcCompat="@mipmap/wikipedia"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="116dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="youtube"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton15"
+        app:layout_constraintStart_toEndOf="@+id/imageButton13"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        app:srcCompat="@mipmap/yooutube"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="116dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="dell"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton16"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@mipmap/dell"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:contentDescription="@string/imagen"
+        android:onClick="colacao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton12"
+        app:srcCompat="@mipmap/cola"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>

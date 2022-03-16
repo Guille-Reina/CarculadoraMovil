@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Actividad voluntaria 2</string>
+    <string name="tv1">Actividad 1</string>
+    <string name="txt_nombre">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="button">Registrar</string>
+    <string name="tv2">Actividad 2</string>
+    <string name="button2">OPCIÓN 1: CALCULADORA RADIOBUTTON</string>
+    <string name="button3">OPCIÓN 2: CALCULADORA SPINNER</string>
+    <string name="button4">OPCIÓN 3: APP IMAGEBUTTON</string>
+    <string name="button5">CERRAR SESIÓN</string>
+    <string name="tv3">Actividad 3</string>
+    <string name="txt_number1">Número</string>
+    <string name="txt_number2">Número</string>
+    <string name="txt_result">Resultado</string>
+    <string name="radioButton">Sumar</string>
+    <string name="radioButton2">Restar</string>
+    <string name="radioButton3">Multiplicar</string>
+    <string name="radioButton4">Dividir</string>
+    <string name="button6">CALCULAR</string>
+    <string name="button7">VOLVER AL MENÚ INICIAL</string>
+    <string name="tv4">Actividad 4</string>
+    <string name="txt_number3">Número</string>
+    <string name="txt_number4">Número</string>
+    <string name="button8">CALCULAR</string>
+    <string name="tv5">Actividad 5</string>
+    <string name="tv6">Actividad 6</string>
+    <string name="imagen"> Información</string>
+    <string name="extra1"> No quiero registrarme</string>
+    <string name="extra2"> Aplicación hecha por Guillermo Reina Pérez</string>
+
+
+
+
+
+
+</resources>
